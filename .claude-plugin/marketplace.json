@@ -1,0 +1,35 @@
+{
+  "name": "myrs-ai-marketplace",
+  "owner": {
+    "name": "Jak Myers",
+    "email": "jak@myrs.ai"
+  },
+  "metadata": {
+    "description": "MYRS.ai plugin marketplace: Advanced agent frameworks, marketing automation, and productivity tools",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "myrs-core",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jakreymyers/myrs-core.git"
+      },
+      "description": "Advanced agent framework with proven patterns for TDD, systematic debugging, collaboration workflows, and quality-driven development",
+      "version": "1.0.0",
+      "keywords": ["framework", "agents", "skills", "tdd", "debugging", "collaboration", "best-practices", "workflows", "quality"],
+      "strict": true
+    },
+    {
+      "name": "myrs-marketing-team",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jakreymyers/myrs-marketing-team.git"
+      },
+      "description": "Comprehensive marketing automation suite with multi-agent orchestration for brand strategy, market research, persona development, content strategy, and digital asset creation",
+      "version": "1.0.0",
+      "keywords": ["marketing", "strategy", "branding", "personas", "content", "automation", "orchestration", "research", "website"],
+      "strict": true
+    }
+  ]
+}
