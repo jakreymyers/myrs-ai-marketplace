@@ -30,6 +30,17 @@
       "version": "1.0.0",
       "keywords": ["marketing", "strategy", "branding", "personas", "content", "automation", "orchestration", "research", "website"],
       "strict": true
+    },
+    {
+      "name": "myrs-git-flow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jakreymyers/myrs-git-flow.git"
+      },
+      "description": "Git workflow automation and best practices for seamless version control, branching strategies, commit conventions, and collaboration workflows",
+      "version": "1.0.0",
+      "keywords": ["git", "workflow", "version-control", "branching", "commits", "collaboration", "automation", "best-practices"],
+      "strict": true
     }
   ]
 }
