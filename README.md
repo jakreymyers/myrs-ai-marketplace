@@ -35,6 +35,47 @@ Add this marketplace to Claude Code:
 
 ---
 
+### MYRS Git Flow
+
+**Description:** Git workflow automation and best practices for seamless version control, branching strategies, commit conventions, and collaboration workflows
+
+**Categories:** Git, Version Control, Workflow, Automation, Best Practices
+
+**Install:**
+```bash
+/plugin install myrs-git-flow@myrs-ai-marketplace
+```
+
+**What you get:**
+- **Git Flow Commands** - Automated branch creation and management
+  - `/myrs-git-flow:feature` - Create feature branches from develop
+  - `/myrs-git-flow:release` - Create release branches with versioning
+  - `/myrs-git-flow:hotfix` - Create hotfix branches from main
+  - `/myrs-git-flow:finish` - Complete and merge branches automatically
+  - `/myrs-git-flow:flow-status` - Comprehensive Git Flow status reporting
+- **Validation Hooks** - Automatic enforcement of Git Flow best practices
+  - Conventional Commits validation (feat, fix, docs, etc.)
+  - Git Flow branch naming enforcement (feature/*, release/*, hotfix/*)
+  - Protected branch push prevention (blocks direct pushes to main/develop)
+- **Git Flow Manager Agent** - Intelligent workflow automation
+  - Automated merge conflict detection
+  - Conventional commit message formatting
+  - Release management with changelog generation
+  - Pull request generation with detailed descriptions
+  - Visual status reporting with recommendations
+
+**Key Features:**
+- Complete Git Flow workflow automation
+- Zero-configuration hooks that work on plugin install
+- Prevents common Git mistakes before they happen
+- Visual branch status and relationship diagrams
+- Semantic versioning support for releases
+- Integration with awesome-claude-statusline
+
+**Repository:** https://github.com/jakreymyers/myrs-git-flow
+
+---
+
 ### MYRS Marketing Team
 
 **Description:** Comprehensive marketing automation suite with multi-agent orchestration for brand strategy, market research, persona development, content strategy, and digital asset creation
@@ -82,6 +123,7 @@ myrs-ai-marketplace/
 
 - **Issues**: https://github.com/jakreymyers/myrs-ai-marketplace/issues
 - **MYRS Core Plugin**: https://github.com/jakreymyers/myrs-core
+- **MYRS Git Flow Plugin**: https://github.com/jakreymyers/myrs-git-flow
 - **MYRS Marketing Team Plugin**: https://github.com/jakreymyers/myrs-marketing-team
 
 ## License
